@@ -1,15 +1,52 @@
 /*Reset do CSS*/
 *{
-    margin: 0px ;
-    padding : 0;
+    margin: 0 ;
+    padding :0;
+    box-sizing:border-box;
 }
 
-h1,p{
-    text-align: center;
+/*Configurações Gerais*/
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border-radius: 2.6px;
+    font-family: oblique;
 }
 
 header {
-    background-color: rgb(241, 152, 197);
-    color: azure;
+    background-color: rgb(188, 148, 192);
+    color: rgb(240, 238, 238);
+    font-style: oblique;
     padding: 40px;
+    text-align: center;
+}
+
+main{
+    background-color: rgb(235, 232, 232);
+   flex: 1;
+   padding: 48px 38px;
+   width: 100%;
+}
+
+#titulo-sobre-mim {
+    font-size: 18px;
+    width:100%;
+    background-color: rgb(212, 194, 214);
+    font-style: oblique;
+    border-bottom: 2px solid rgb(161, 122, 161);
+    
+}
+about-section{
+    display: block;
+    background-color: rgb(212, 194, 214);
+    width:80;
+    padding: 25px;
+    border-radius: 12px;
+}
+.texto-sobre-mim{
+    font-size: 30px;
+    width: 100%;
+    background-color: white;
+    font-style: oblique;
 }
