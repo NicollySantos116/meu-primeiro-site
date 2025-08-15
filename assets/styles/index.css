@@ -58,7 +58,7 @@ about-section{
 }
 hobbies {
     display: block;
-    background-color: git rgb(211, 197, 212);
+    background-color: rgb(211, 197, 212);
     width:80;
     padding: 25px;
     border-radius: 12px;
@@ -72,10 +72,50 @@ ul{
     gap: 12px;
 }
 
-li {
+li{
     background-color: rgb(168, 144, 189);
     padding: 12px;
     border-left: 4px solid rgb(125, 93, 138);
     font-size:16px;
     min-width: 200px;
+}
+li:hover{
+    background-color: rgb(141, 113, 146); 
+    transform: translateX(5px) ;
+    transition: all 0.3s ease;
+}
+
+contact{ display: block;
+    background-color: rgb(211, 197, 212);
+    width:80;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+contact h2{
+    margin-bottom: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
+ contact p{
+    text-align: center;
+    font-size: 19px;
+ }
+ contact a{
+    color:rgba(116, 83, 146, 0.842);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.2rem 1rem;
+    margin: 0 0.5rem;
+    border: 2px solid rgba(116, 83, 146, 0.842);
+    border-radius: 25px;
+    display: inline-block;
+ }
+ contact a:hover{
+    background-color:rgb(141, 113, 146); 
+    color: white;
+    transform: translateX(-2px) ;
+    transition: all 0.3s ease;
 }
