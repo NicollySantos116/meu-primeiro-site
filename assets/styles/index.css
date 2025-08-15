@@ -41,7 +41,6 @@ main{
 about-section{
     display: block;
     background-color: rgb(212, 194, 214);
-    width:80%;
     padding: 25px;
     border-radius: 12px;
     margin-bottom: 60px;
